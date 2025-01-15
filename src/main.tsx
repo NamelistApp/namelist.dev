@@ -23,10 +23,10 @@ function Initial(): JSX.Element {
     fontFamily: '"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif',
     colors: {
       'soft-sand': colorsTuple(
-        Array.from({ length: 10 }, (_, index) => '#fcfaf8')
+        Array.from({ length: 10 }, () => '#fcfaf8')
       ),
       'soft-sand-accent': colorsTuple(
-        Array.from({ length: 10 }, (_, index) => '#f4f1ed')
+        Array.from({ length: 10 }, () => '#f4f1ed')
       ),
       'accent': virtualColor({ name: 'accent', light: 'soft-sand-accent', dark: 'dark-7' }),
       'bg': virtualColor({ name: 'bg', light: 'soft-sand', dark: 'dark-8' }),

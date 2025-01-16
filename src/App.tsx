@@ -30,16 +30,16 @@ function App() {
               }
             >
               <List.Item>
+                <b>Forms and Waitlists</b> – start collecting user signups fast
+              </List.Item>
+              <List.Item>
                 <b>Object Management</b> - contact, company and list managment
               </List.Item>
               <List.Item>
-                <b>Email Support</b> - send 1:1 or bulk email to your objects
+                <b>Email Marketing</b> - send 1:1 or email broadcasts
               </List.Item>
               <List.Item>
                 <b>Reports and Charts</b> - create and view reports and charts
-              </List.Item>
-              <List.Item>
-                <b>Forms and Waitlists</b> – start collecting user signups fast
               </List.Item>
             </List>
 

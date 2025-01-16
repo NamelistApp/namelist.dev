@@ -62,7 +62,6 @@ function App() {
           </Stack>
         </SimpleGrid>
       </Container >
-      <ChatwootWidget />
     </>
   )
 }

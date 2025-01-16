@@ -1,6 +1,7 @@
 import { IconBrandGithub, IconCheck, IconInnerShadowBottom, IconMail } from '@tabler/icons-react'
 import { Button, Container, Highlight, Group, Image, List, Paper, SimpleGrid, Stack, Text, ThemeIcon, Title, rem, Center } from '@mantine/core'
 import './App.css'
+import ChatwootWidget from './components/ChatwootWidget'
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           </Stack>
         </SimpleGrid>
       </Container >
+      <ChatwootWidget />
     </>
   )
 }
